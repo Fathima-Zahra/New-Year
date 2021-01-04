@@ -87,7 +87,7 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 60px;
+  height: 40px;
   font-family: "Poppins", sans-serif;
   background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
@@ -98,6 +98,8 @@ section {
 
 .logo {
   z-index: 3;
+  display: flex;
+  flex-direction: row;
 }
 
 .logo img {
@@ -119,7 +121,7 @@ section {
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 10px;
   transition: 0.2s;
   text-transform: uppercase;
 }
