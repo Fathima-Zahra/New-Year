@@ -403,3 +403,14 @@ p {
 #mynav {
   top: 0px !important;
 }
+
+.card:hover {
+  margin-top: 92px;
+  cursor: grab;
+  box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.card {
+  transition: all 500ms ease-in-out;
+}
